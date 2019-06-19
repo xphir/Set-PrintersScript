@@ -1,0 +1,200 @@
+[
+  {
+    "Clients": [
+      "ITC4437E6DF7006",
+      "ITC4437E6DFEE00",
+      "ITC4437E6DF6F83"
+    ],
+    "DefaultPrinter": "\\\\STORAGESERVER\\MO_TILLS_MFP",
+    "CustomPrinters": [
+      {
+        "CustomName": "Till01",
+        "PrinterName": "\\\\STORAGESERVER\\MO_TILL01_RECEIPT",
+        "ClientName": "ITC4437E6DFEE00"
+      },
+      {
+        "CustomName": "Till02",
+        "PrinterName": "\\\\STORAGESERVER\\MO_TILL02_RECEIPT",
+        "ClientName": "ITC4437E6DF7006"
+      }
+    ],
+    "GroupName": "MoorabbinTills",
+    "Printers": [
+      "\\\\STORAGESERVER\\MO_TILLS_MFP",
+      "\\\\STORAGESERVER\\MO_DESPATCH_BARCODE_PRINTER"
+    ]
+  },
+  {
+    "Clients": [
+      "ITC4437E6DFEE0F",
+      "ITC4437E6DFF06D"
+    ],
+    "DefaultPrinter": "\\\\STORAGESERVER\\MO_PRINTER01",
+    "CustomPrinters": [
+      {
+        "CustomName": "BackCounter Receipt 01",
+        "ClientName": "ITC4437E6DFEE0F",
+        "PrinterName": "\\\\STORAGESERVER\\MO_BACKCOUNTER_RECEIPT"
+      },
+      {
+        "CustomName": "BackCounter Receipt 02",
+        "ClientName": "ITC4437E6DFF06D",
+        "PrinterName": "\\\\STORAGESERVER\\MO_BACKCOUNTER_RECEIPT2"
+      }
+    ],
+    "GroupName": "MoorabbinBackCounter",
+    "Printers": [
+      "\\\\STORAGESERVER\\MO_DESPATCH_BARCODE_PRINTER",
+      "\\\\STORAGESERVER\\MO_PRINTER01"
+    ]
+  },
+  {
+    "Clients": [
+      "ITC00E0C516936B",
+      "ITC00E0C5168825",
+      "ITC00E0C5168CF2",
+      "ITC00E0C5168D08"
+    ],
+    "DefaultPrinter": "\\\\STORAGESERVER\\GE_TILLS_MFP",
+    "CustomPrinters": [
+      {
+        "CustomName": "GeelongTills Receipt 01",
+        "ClientName": "ITC00E0C5168CF2",
+        "PrinterName": "\\\\STORAGESERVER\\GE_TILL01_RECEIPT"
+      },
+      {
+        "CustomName": "GeelongTills Receipt 02",
+        "ClientName": "ITC00E0C5168D08",
+        "PrinterName": "\\\\STORAGESERVER\\GE_TILL02_RECEIPT"
+      }
+    ],
+    "GroupName": "GeelongRetailTills",
+    "Printers": [
+      "\\\\STORAGESERVER\\GE_TILLS_MFP",
+      "\\\\STORAGESERVER\\GE_DESPATCH_BARCODE_PRINTER"
+    ]
+  },
+  {
+    "Clients": [
+      "ITC4437E6DF988B",
+      "ITC4437E6DFEEA7"
+    ],
+    "DefaultPrinter": "\\\\STORAGESERVER\\MO_RETAIL_MANAGER",
+    "CustomPrinters": [],
+    "GroupName": "MoorabbinRetailManagers",
+    "Printers": [
+      "\\\\STORAGESERVER\\MO_DESPATCH_BARCODE_PRINTER",
+      "\\\\STORAGESERVER\\MO_RETAIL_MANAGER"
+    ]
+  },
+  {
+    "Clients": [
+      "ITC00E0C5168E1F"
+    ],
+    "DefaultPrinter": "\\\\STORAGESERVER\\MO_DESPATCH01",
+    "CustomPrinters": [],
+    "GroupName": "MoorabbinDespatch",
+    "Printers": [
+      "\\\\STORAGESERVER\\MO_DESPATCH_BARCODE_PRINTER",
+      "\\\\STORAGESERVER\\MO_LABEL_PRINTER",
+      "\\\\STORAGESERVER\\MO_DESPATCH01",
+      "\\\\STORAGESERVER\\MO_FRONT_CUBE"
+    ]
+  },
+  {
+    "Clients": [
+      "ITC4437E6DF7020"
+    ],
+    "DefaultPrinter": "\\\\STORAGESERVER\\MO_FRONT_CUBE",
+    "CustomPrinters": [],
+    "GroupName": "MoorabbinFrontCube",
+    "Printers": [
+      "\\\\STORAGESERVER\\MO_LABEL_PRINTER",
+      "\\\\STORAGESERVER\\MO_DESPATCH01",
+      "\\\\STORAGESERVER\\MO_FRONT_CUBE"
+    ]
+  },
+  {
+    "Clients": [
+      "ITC00E0C5168B0D",
+      "ITC00E0C516C878"
+    ],
+    "DefaultPrinter": "\\\\STORAGESERVER\\GE_PRINTER01",
+    "CustomPrinters": [],
+    "GroupName": "GeelongBathrooms",
+    "Printers": [
+      "\\\\STORAGESERVER\\GE_PRINTER01",
+      "\\\\STORAGESERVER\\GE_PRINTER02",
+      "\\\\STORAGESERVER\\GE_DESPATCH_BARCODE_PRINTER"
+    ]
+  },
+  {
+    "Clients": [
+      "ITC00E0C516D622"
+    ],
+    "DefaultPrinter": "\\\\STORAGESERVER\\GE_PRINTER04",
+    "CustomPrinters": [],
+    "GroupName": "GeelongRetailDespatch",
+    "Printers": [
+      "\\\\STORAGESERVER\\GE_PRINTER04",
+      "\\\\STORAGESERVER\\GE_DESPATCH_BARCODE_PRINTER"
+    ]
+  },
+  {
+    "Clients": [
+      "ITC00E0C5168877"
+    ],
+    "DefaultPrinter": "\\\\STORAGESERVER\\GE_RETAIL_MANAGER",
+    "CustomPrinters": [],
+    "GroupName": "GeelongRetailManager",
+    "Printers": [
+      "\\\\STORAGESERVER\\GE_RETAIL_MANAGER",
+      "\\\\STORAGESERVER\\GE_DESPATCH_BARCODE_PRINTER"
+    ]
+  },
+  {
+    "Clients": [
+      "ITC448A5BBF37EC",
+      "ITC4437E6DF702A",
+      "ITC4437E6DF703E",
+      "ITC4437E6DF810A",
+      "ITC4437E6DFF055",
+      "GE_Warehouse"
+    ],
+    "DefaultPrinter": "\\\\STORAGESERVER\\GW_DESPATCH01",
+    "CustomPrinters": [],
+    "GroupName": "GeelongWarehouseDespatch",
+    "Printers": [
+      "\\\\STORAGESERVER\\GW_DESPATCH01",
+      "\\\\STORAGESERVER\\GW_DESPATCH02",
+      "\\\\STORAGESERVER\\GW_DESPATCH03",
+      "\\\\STORAGESERVER\\GW_BARCODE_PRINTER",
+      "\\\\STORAGESERVER\\GW_LABEL_PRINTER"
+    ]
+  },
+  {
+    "Clients": [
+      "ITC7845C42F9FAD"
+    ],
+    "DefaultPrinter": "\\\\STORAGESERVER\\GW_POST",
+    "CustomPrinters": [],
+    "GroupName": "GeelongWarehousePost",
+    "Printers": [
+      "\\\\STORAGESERVER\\GW_POST",
+      "\\\\STORAGESERVER\\GW_LABEL_PRINTER"
+    ]
+  },
+  {
+    "Clients": [
+      "ITC4437E6DFD702"
+    ],
+    "DefaultPrinter": "\\\\STORAGESERVER\\GW_DESPATCH02",
+    "CustomPrinters": [],
+    "GroupName": "GeelongWarehouseManager",
+    "Printers": [
+      "\\\\STORAGESERVER\\GW_DESPATCH01",
+      "\\\\STORAGESERVER\\GW_DESPATCH02",
+      "\\\\STORAGESERVER\\GW_LABEL_PRINTER"
+    ]
+  }
+]
