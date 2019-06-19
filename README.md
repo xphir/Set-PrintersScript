@@ -8,3 +8,6 @@ This has been live for over 2 years in our network, as has no issues once we fin
 
 ## How to
 TODO
+
+## Triggering the script
+This script would trigger on every logon even on the rdp server we had (eg, trigger on clean login, or on a thin client move)
